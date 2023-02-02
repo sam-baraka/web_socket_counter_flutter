@@ -4,7 +4,14 @@ version: 0.1.0+1
 publish_to: none
 
 environment:
-  sdk: ">=2.19.0 <3.0.0"
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  web_socket_client: ^0.1.0-dev.1
+  web_socket_counter:
+    git:
+      url: https://github.com/VeryGoodOpenSource/dart_frog
+      path: examples/web_socket_counter
 
 dev_dependencies:
   mocktail: ^0.3.0
