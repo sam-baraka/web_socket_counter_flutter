@@ -57,6 +57,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  broadcast_bloc:
+    dependency: transitive
+    description:
+      name: broadcast_bloc
+      sha256: df51310b8068a28d97a0c429a650f3bf7839efea625614a7acb38eff52560a97
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0-dev.1"
   characters:
     dependency: transitive
     description:
@@ -89,6 +97,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.1.1"
+  counter_repository:
+    dependency: "direct main"
+    description:
+      path: "packages/counter_repository"
+      relative: true
+    source: path
+    version: "0.1.0+1"
   coverage:
     dependency: transitive
     description:
@@ -105,6 +120,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.0.2"
+  dart_frog:
+    dependency: transitive
+    description:
+      name: dart_frog
+      sha256: a2e886367e5cef7a2c7b56c96d5f8491afad422359e2bfd4d8e6319d677c061b
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.3.2"
+  dart_frog_web_socket:
+    dependency: transitive
+    description:
+      name: dart_frog_web_socket
+      sha256: a7eecafd828ebac32d22264dd77a7df7ed04b6bf4a7a475a99fc135803c50537
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0-dev.2"
   diff_match_patch:
     dependency: transitive
     description:
@@ -113,6 +144,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.4.1"
+  equatable:
+    dependency: "direct main"
+    description:
+      name: equatable
+      sha256: c2b87cb7756efdf69892005af546c56c0b5037f54d2a88269b4f347a505e3ca2
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.5"
   fake_async:
     dependency: transitive
     description:
@@ -168,6 +207,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  hotreloader:
+    dependency: transitive
+    description:
+      name: hotreloader
+      sha256: "66b78edf340352fcdd2043ab6116e58ec018c5968cab6485cde0f1769d28e0b8"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.0.5"
+  http_methods:
+    dependency: transitive
+    description:
+      name: http_methods
+      sha256: c192bb6fb4ae99d06053f67a2c1c65350a29bc778a39d9a12b96bd2ec820e9dc
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.0"
   http_multi_server:
     dependency: transitive
     description:
@@ -320,6 +375,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.4.0"
+  shelf_hotreload:
+    dependency: transitive
+    description:
+      name: shelf_hotreload
+      sha256: "5e7a68273d64a095384325d769c6a4885ea15c6aafee361098c0d8a5ecb5dcf6"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.0"
   shelf_packages_handler:
     dependency: transitive
     description:
@@ -389,6 +452,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.1"
+  stream_transform:
+    dependency: transitive
+    description:
+      name: stream_transform
+      sha256: "14a00e794c7c11aa145a170587321aedce29769c08d7f58b1d141da75e3b1c6f"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.1.0"
   string_scanner:
     dependency: transitive
     description:
@@ -477,6 +548,23 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.3.0"
+  web_socket_client:
+    dependency: transitive
+    description:
+      name: web_socket_client
+      sha256: ef278dc53006c0879c13576898ca452ae56fc4d8f5d6aab39bcd03c78a000091
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.1.0-dev.1"
+  web_socket_counter:
+    dependency: transitive
+    description:
+      path: "examples/web_socket_counter"
+      ref: HEAD
+      resolved-ref: "389e0cb5a1cb96eca2dbb5526a95a15da36493dd"
+      url: "https://github.com/VeryGoodOpenSource/dart_frog"
+    source: git
+    version: "1.0.0+1"
   webkit_inspection_protocol:
     dependency: transitive
     description:
@@ -494,5 +582,5 @@ packages:
     source: hosted
     version: "3.1.1"
 sdks:
-  dart: ">=2.18.0 <3.0.0"
+  dart: ">=2.19.0 <3.0.0"
   flutter: ">=3.3.10"
